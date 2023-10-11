@@ -17,7 +17,7 @@ Para instalar TeLlevoDuoc, sigue estos pasos:
 1. Primero es necesario tener instalados en tu máquina local Node.js y Ionic v7, de lo contrario no podrás ejecutar alguno de los siguientes comandos. 
 2. Clonar este repositorio en tu máquina local.
      ```bash
-     git clone https://github.com/frankiwi6x6/TeLlevoDuocSemestral)
+     git clone https://github.com//TeLlevoDuocSemestral)
      ```
 3. Navega al directorio del proyecto
      ```bash
