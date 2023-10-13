@@ -14,7 +14,7 @@ export class VehiculoService {
   ) { }
 
   getAutos(id_usuario: string): Observable<any> {
-    const URL = `${api_url}/usuario?select=conductor(id_vehiculo_principal,conductor_vehiculo(vehiculo(id,patente,marca_vehiculo(descripcion),modelo,capacidad,color)))&id=eq.${id_usuario}`;
+    const URL = `${api_url}/usuario?select=conductor(id,id_vehiculo_principal,conductor_vehiculo(vehiculo(id,patente,marca_vehiculo(descripcion),modelo,capacidad,color)))&id=eq.${id_usuario}`;
 
     const headers = new HttpHeaders({
       'apikey': `${DB_PASSWORD}`,

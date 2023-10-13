@@ -54,6 +54,9 @@ export class HomePage implements OnInit {
     }
   }
 
-  
+  crearViaje() {
+    this.router.navigateByUrl('crear-viaje');
+    
+  }
 
-}
+} 
